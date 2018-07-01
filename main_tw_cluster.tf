@@ -1,5 +1,4 @@
 # ThoughtWorks: DevOps_Test Project for CompanyNews deployment on AWS
-# Mohini Sharma <moh.sharma000@gmail.com>
 
 # ------------------------------------------------------------
 # ThoughtWorks: AWS login credentials, Region : Mumbai
