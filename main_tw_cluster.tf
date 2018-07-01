@@ -36,9 +36,9 @@ resource "aws_autoscaling_group" "thoughtworks" {
 # ------------------------------------------------------------
 
 resource "aws_launch_configuration" "thoughtworks" {
-  image_id = "ami-0646928ef4b88ccfc"
+  image_id = "ami-e790a488"
   instance_type = "t2.micro"
-  key_name = "twkey"
+  key_name = "keypair_tw"
   security_groups = ["${aws_security_group.instance.id}"]
 
   user_data = <<-EOF
